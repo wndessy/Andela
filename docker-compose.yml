@@ -1,0 +1,10 @@
+  version: '3'
+
+  services:
+    andela:
+      build: .
+      volumes:
+        - ./:/andela
+      ports:
+        - "8000:8000"
+      command: bash -c "./devops/run.sh"

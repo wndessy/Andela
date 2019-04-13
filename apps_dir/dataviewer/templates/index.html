@@ -1,0 +1,46 @@
+<!DOCTYPE html>{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" type="text/css"
+              href="{% static "frontend/node_modules/bootstrap/dist/css/bootstrap.min.css" %}"/>
+        <link rel="stylesheet" type="text/css"
+              href="{% static "frontend/node_modules/datatables.net-dt/css/jquery.dataTables.min.css" %}"/>
+
+        <link rel="stylesheet" type="text/css" href="{% static "frontend/css/index.css" %}"/>
+
+
+    </head>
+    <body class="container">
+        <h1 class="text-center">Male Dataset </h1>
+        <div class="container-fluid">
+            <table class="display" id="male">
+                <thead>
+
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <h1 class="text-center">Female Dataset </h1>
+        <table class="display" id="female">
+            <thead>
+            </thead>
+            <tbody>
+            </tbody>
+
+
+        </table>
+        <script type="text/javascript" src="{% static "frontend/node_modules/jquery/dist/jquery.min.js" %}"></script>
+        <script type="text/javascript"
+                src="{% static "frontend/node_modules/bootstrap/dist/js/bootstrap.min.js" %}"></script>
+        <script type="text/javascript"
+                src="{% static "frontend/node_modules/bootstrap/dist/js/bootstrap.min.js" %}"></script>
+        <script type="text/javascript"
+                src="{% static "frontend/node_modules/datatables.net/js/jquery.dataTables.min.js" %}"></script>
+        <script type="text/javascript" src="{% static "frontend/js/index.js" %} "></script>
+    </body>
+</html>
