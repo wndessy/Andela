@@ -1,15 +1,15 @@
 # Andela
 
-##instalation 
+## instalation 
 
-###Prerequisites
+### Prerequisites
 Have the following installed on the host machine:
 * Have docker : 
 ```https://docs.docker.com/```
 
 * docker-compose: ```https://docs.docker.com/compose/install/```
 
-###procedure
+### procedure
 * clone the project.
 ```git clone https://github.com/wndessy/Andela.git```
 
@@ -25,7 +25,7 @@ go to the browser of the host and type:
 
 (http://0.0.0.0:8000/)
 
-####running tests
+#### running tests
 move to the project root folder and run:
 ``` make test```
 
